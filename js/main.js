@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到我的主页'
+            message: '目前小于在大禹工作'
         });
     }, 800);
 }, false)
@@ -222,7 +222,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("欢饮来到我的主页");
+        $("#change1").html("目前小于在大禹工作");
     }
 });
 
