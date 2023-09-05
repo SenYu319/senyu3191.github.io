@@ -14,7 +14,7 @@ var type = "song"; //song: 单曲; playlist: 歌单; album: 唱片
 var id = "1496132290"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
-    url: "https://api-meting.imsyy.top/api/?server=" + server + "&type=" + type + "&id=" + id, //json文件位置，文件名
+    url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id, //json文件位置，文件名
     type: "GET",
     dataType: "JSON",
     success: function (data) {
