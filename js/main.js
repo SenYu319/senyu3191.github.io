@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '目前小于在大禹工作'
+            message: '欢迎到来'
         });
     }, 800);
 }, false)
