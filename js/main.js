@@ -31,7 +31,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎到来'
+            message: '欢迎来到我的主页'
         });
     }, 800);
 }, false)
@@ -222,7 +222,7 @@ $('#switchmore').on('click', function () {
     } else {
         $('#container').attr('class', 'container');
         $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("目前小于在大禹工作");
+        $("#change1").html("欢饮来到我的主页");
     }
 });
 
@@ -358,7 +358,8 @@ var content = `
 版 本 号：3.0
 更新日期：2022-05-20
 
-主页: sen26.cn
+主页:  https://sen26.cn
+Github:  https://github.com/SenYu319
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
