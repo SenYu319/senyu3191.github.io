@@ -358,8 +358,7 @@ var content = `
 版 本 号：3.0
 更新日期：2022-05-20
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页: sen26.cn
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
